@@ -36,7 +36,17 @@ const Ejercicio7 = () => {
     setError("");
   };
   return (
-    <div>
+    <div
+      style={{
+        padding: "20px",
+        textAlign: "center",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <h2>Generador de Contraseñas</h2>
       <input
         type="number"

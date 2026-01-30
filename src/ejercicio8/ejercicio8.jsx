@@ -13,7 +13,17 @@ const Ejercicio8 = () => {
   const wordCount = text.trim() === "" ? 0 : text.trim().split(/\s+/).length;
 
   return (
-    <div>
+    <div
+      style={{
+        padding: "20px",
+        textAlign: "center",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <h2>Contador de Caracteres y Palabras</h2>
       <textarea
         rows="10"

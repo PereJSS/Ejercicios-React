@@ -69,7 +69,14 @@ const Ejercicio5 = () => {
         placeholder="Número 2"
         style={{ padding: "10px", fontSize: "16px", margin: "10px" }}
       />
-      <div>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          gap: "5px",
+        }}
+      >
         <button
           onClick={() => manejarOperacion("sumar")}
           style={{ padding: "10px 20px", margin: "5px" }}

@@ -32,7 +32,17 @@ const Ejercicio9 = () => {
     localStorage.setItem("tasks", JSON.stringify(updatedTasks));
   };
   return (
-    <div>
+    <div
+      style={{
+        padding: "20px",
+        textAlign: "center",
+        minHeight: "100vh",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <h2>Lista de Tareas</h2>
       <input
         type="text"
