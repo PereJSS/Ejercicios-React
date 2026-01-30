@@ -6,6 +6,9 @@ import { resolve } from "path";
 export default defineConfig({
   plugins: [react()],
   base: "/ejercicios-react/",
+  esbuild: {
+    jsx: "automatic",
+  },
   server: {
     watch: {
       usePolling: true,
